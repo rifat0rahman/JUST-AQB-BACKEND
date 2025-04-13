@@ -14,6 +14,7 @@ def CreatePdfView(request):
         pdf = data.get("pdf")
         dept = data.get("dept")
         session = data.get("session")
+        semester = data.get("semester")
         course_title = data.get("course_title")
         teacher = data.get("teacher")
         contributor = data.get("contributor")
@@ -22,6 +23,7 @@ def CreatePdfView(request):
             pdf = pdf,
             dept = dept,
             session = session,
+            semester = semester,
             course_title = course_title,
             teacher = teacher,
             contributor = contributor
@@ -75,6 +77,7 @@ def SearchView(request):
     "pdf":"pdf",
     "dept":"dept",
     "session":"session",
+    "semester":"semester",
     "course_title":"course_title",
     "teacher":"teacher",
     "contributor":"contributor"

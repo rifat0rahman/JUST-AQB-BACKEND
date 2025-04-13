@@ -7,6 +7,7 @@ class CreatePdf(models.Model):
     pdf = models.CharField(max_length=400,default="")
     dept = models.CharField(max_length=50,default="")
     session = models.CharField(max_length=50,default="")
+    semester = models.CharField(max_length=50,default="")
     course_title = models.CharField(max_length=200,default="")
     teacher = models.CharField(max_length=100,default="")
     contributor = models.CharField(max_length=50,default="")

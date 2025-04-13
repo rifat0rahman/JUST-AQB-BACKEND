@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-9@85m_^_83%&58n&%*pboc!)uks#-md$n80d(6b%*_01j-_^$1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['justaqb.pythonanywhere.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -139,16 +139,3 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = [
-#     "https://yourfrontend.com",
-#     "https://another-trusted-site.com",
-# ]
-# CSRF_TRUSTED_ORIGINS = [
-#     'http://localhost:8000',
-#     'chrome-extension://gmmkjpcadciiokjpikmkkmapphbmdjok',
-# ]
-
-# CORS_ORIGIN_WHITELIST = [
-#     'http://localhost:8000',
-#     'chrome-extension://gmmkjpcadciiokjpikmkkmapphbmdjok',
-# ]
